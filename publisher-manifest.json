@@ -1,0 +1,86 @@
+{
+  "version": 2,
+  "template_version": "7ffa5ebee0a6d05c86c7",
+  "page_size": 20,
+  "site_id": "922dc8c45aabe044cc8f1b16",
+  "owner": "jcpaept",
+  "repo": "page-c92d2e870173cc98bf0f5a60",
+  "title": "青云梯",
+  "mode": "repo",
+  "articles": [
+    {
+      "id": "c92d2e870173cc98bf0f5a60",
+      "a": "青云梯",
+      "b": "",
+      "entity": "青云梯",
+      "brand": "青云梯",
+      "separator": "",
+      "path": "index.html",
+      "hash": "315cb0243cc2c35c69b16f9c09c51c46e30ce5565d444564dd53edd3b865b3d0",
+      "content": {
+        "keyword1": "青云梯",
+        "keyword2": "",
+        "primary_entity": "青云梯",
+        "plans": [],
+        "clients": [],
+        "_offline": false,
+        "content": {
+          "AI_HERO_INTRO": "青云梯提供安全稳定的VPN加速服务，助力用户畅享高速网络。",
+          "AI_DESCRIPTION": "青云梯提供安全稳定的VPN加速服务，助力用户畅享高速网络。"
+        },
+        "_brand_page": {
+          "version": 1,
+          "body": "\n\n\n    \n    \n    \n    \n    \n    \n    \n    \n    <style>\n        :root {\n            --bg: #f8f4f0;\n            --text: #2c3e50;\n            --accent: #2e7d32;\n        }\n        body {\n            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\n            background: var(--bg);\n            color: var(--text);\n            line-height: 1.6;\n            margin: 0;\n            padding: 0;\n        }\n        header {\n            background: white;\n            box-shadow: 0 2px 10px rgba(0,0,0,0.1);\n            position: sticky;\n            top: 0;\n            z-index: 10;\n        }\n        nav {\n            max-width: 1200px;\n            margin: 0 auto;\n            padding: 1rem 2rem;\n            display: flex;\n            justify-content: space-between;\n            align-items: center;\n        }\n        .logo {\n            font-size: 1.8rem;\n            font-weight: bold;\n            color: var(--accent);\n        }\n        .nav-links {\n            display: flex;\n            gap: 2rem;\n        }\n        .nav-links a {\n            text-decoration: none;\n            color: var(--text);\n            font-weight: 500;\n        }\n        main {\n            max-width: 1200px;\n            margin: 0 auto;\n            padding: 2rem;\n        }\n        .hero {\n            text-align: center;\n            padding: 4rem 0;\n            background: linear-gradient(to bottom, var(--bg), #fff);\n        }\n        .hero h1 {\n            font-size: 4rem;\n            margin: 0 0 1rem;\n            color: var(--accent);\n        }\n        .hero p {\n            font-size: 1.5rem;\n            max-width: 600px;\n            margin: 0 auto;\n            color: #666;\n        }\n        section {\n            margin-bottom: 4rem;\n        }\n        h2 {\n            color: var(--accent);\n            font-size: 2.5rem;\n            border-bottom: 3px solid var(--accent);\n            padding-bottom: 0.5rem;\n            margin-bottom: 2rem;\n        }\n        h3 {\n            color: var(--text);\n            font-size: 1.8rem;\n            margin: 2rem 0 1rem;\n        }\n        .intro, .scenarios, .config {\n            max-width: 800px;\n            margin: 0 auto;\n            text-align: center;\n        }\n        ul {\n            list-style: none;\n            padding: 0;\n        }\n        li {\n            background: white;\n            margin: 1rem 0;\n            padding: 1.5rem;\n            border-radius: 8px;\n            box-shadow: 0 4px 6px rgba(0,0,0,0.05);\n        }\n        .faq {\n            display: flex;\n            flex-direction: column;\n            gap: 1rem;\n        }\n        details {\n            background: white;\n            border-radius: 8px;\n            overflow: hidden;\n            box-shadow: 0 4px 6px rgba(0,0,0,0.05);\n        }\n        summary {\n            padding: 1.5rem;\n            font-size: 1.2rem;\n            font-weight: 600;\n            cursor: pointer;\n            list-style: none;\n        }\n        summary::-webkit-details-marker {\n            display: none;\n        }\n        details[open] summary {\n            border-bottom: 1px solid #eee;\n        }\n        details > div {\n            padding: 1.5rem;\n            border-top: 1px solid #eee;\n        }\n        .plans, .clients {\n            display: grid;\n            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));\n            gap: 2rem;\n        }\n        .plan-card, .client-card {\n            background: white;\n            padding: 2rem;\n            border-radius: 12px;\n            text-align: center;\n            box-shadow: 0 4px 15px rgba(46, 125, 50, 0.1);\n        }\n        .plan-card h3, .client-card h3 {\n            color: var(--accent);\n        }\n        .plan-card p, .client-card p {\n            color: #666;\n        }\n        footer {\n            background: #2e7d32;\n            color: white;\n            padding: 3rem 0;\n            text-align: center;\n        }\n        .footer-content {\n            max-width: 1200px;\n            margin: 0 auto;\n        }\n        @media (max-width: 768px) {\n            .hero h1 {\n                font-size: 2.5rem;\n            }\n            nav .logo {\n                font-size: 1.5rem;\n            }\n            .nav-links {\n                gap: 1rem;\n            }\n        }\n    </style>\n\n\n    <header>\n        <nav>\n            <div class=\"logo\">青云梯</div>\n            <div class=\"nav-links\">\n                <a href=\"#intro\">简介</a>\n                <a href=\"#scenarios\">使用场景</a>\n                <a href=\"#config\">配置流程</a>\n                <a href=\"#faq\">FAQ</a>\n                <a href=\"#plans\">套餐</a>\n                <a href=\"#clients\">客户端</a>\n            </div>\n        </nav>\n    </header>\n    <main>\n        <section class=\"hero\">\n            <h1>青云梯</h1>\n            <p>安全稳定的VPN加速器<br>优质客户端下载与配置指南</p>\n        </section>\n        <section id=\"intro\">\n            <h2>品牌简介</h2>\n            <p class=\"intro\">青云梯致力于提供安全稳定的VPN服务，帮助用户轻松实现网络加速和畅游互联网。无论是在家办公还是日常娱乐，我们的解决方案都能让您的网络体验更顺畅。</p>\n        </section>\n        <section id=\"scenarios\">\n            <h2>使用场景</h2>\n            <div class=\"scenarios\">\n                <ul>\n                    <li>科学上网：突破地域限制，访问全球内容。</li>\n                    <li>网络加速：加速下载和在线视频观看。</li>\n                    <li>远程办公：保持稳定连接，确保工作顺利。</li>\n                    <li>隐私保护：加密传输数据，保护个人信息安全。</li>\n                    <li>多设备支持：无缝切换不同设备使用。</li>\n                </ul>\n            </div>\n        </section>\n        <section id=\"config\">\n            <h2>配置流程</h2>\n            <div class=\"config\">\n                <h3>简单三步完成配置</h3>\n                <ol>\n                    <li>访问官网下载青云梯客户端。</li>\n                    <li>导入您的订阅信息并选择节点。</li>\n                    <li>连接服务器，享受加速网络。</li>\n                </ol>\n            </div>\n        </section>\n        <section id=\"faq\" class=\"faq\">\n            <h2>常见问题</h2>\n            <details>\n                <summary>什么是青云梯？</summary>\n                <div>青云梯是一款专业的VPN加速服务，专注于提供稳定、安全的网络加速解决方案，帮助用户畅享全球网络资源。</div>\n            </details>\n            <details>\n                <summary>如何下载客户端？</summary>\n                <div>您可以通过官方网站获取青云梯的最新客户端版本。</div>\n            </details>\n            <details>\n                <summary>青云梯支持哪些设备？</summary>\n                <div>青云梯支持Windows、macOS、iOS、Android等多种主流操作系统。</div>\n            </details>\n            <details>\n                <summary>配置青云梯需要多久？</summary>\n                <div>大多数用户只需几分钟即可完成下载、导入和连接。</div>\n            </details>\n            <details>\n                <summary>如何获取技术支持？</summary>\n                <div>如果遇到问题，您可以联系我们的支持团队获取帮助。</div>\n            </details>\n        </section>\n        <section id=\"plans\">\n            <h2>套餐信息</h2>\n            {{PLANS_HTML}}\n        </section>\n        <section id=\"clients\">\n            <h2>客户端下载</h2>\n            {{CLIENTS_HTML}}\n        </section>\n    </main>\n    <footer>\n        <div class=\"footer-content\">\n            <p>© 2024 青云梯 | 所有权利保留</p>\n            <p>友情链接：<a href=\"#clients\">客户端</a></p>\n        </div>\n    </footer>\n\n",
+          "hash": "9d1200d9bc363951e013f6cb2f4e8980e516fff5da0190c092a70b43c9f26bf5",
+          "seo": {
+            "title": "青云梯 - VPN加速器 客户端下载 官网",
+            "keywords": "青云梯,VPN,机场,加速器,客户端下载,梯子",
+            "description": "青云梯提供安全稳定的VPN加速服务，助力用户畅享高速网络。"
+          },
+          "provider": "grok"
+        }
+      }
+    }
+  ],
+  "domain": {
+    "apex": "fengguoshuzi.cn",
+    "host": "zh.fengguoshuzi.cn",
+    "kind": "subdomain",
+    "candidate_roots_ref": "subdomain_roots:91e741dce7c147d9ce91af6f84daa678dae755807d903b04925261e0a3a8d804"
+  },
+  "friendlinks": [
+    {
+      "host": "fengguoshuzi.cn",
+      "url": "https://fengguoshuzi.cn/",
+      "label": "xip",
+      "apex": "fengguoshuzi.cn",
+      "kind": null,
+      "identity": "mgcskb/page-7a6c6907a6a9db600343aafd"
+    },
+    {
+      "host": "00ah6.cn",
+      "url": "https://00ah6.cn/",
+      "label": "SSHUB",
+      "apex": "00ah6.cn",
+      "kind": null,
+      "identity": "erjwrgjj/page-6141714b7a0f264666643c94"
+    },
+    {
+      "host": "01kmph.cn",
+      "url": "https://01kmph.cn/",
+      "label": "WeGo",
+      "apex": "01kmph.cn",
+      "kind": null,
+      "identity": "wbwftxwku/page-680ee6fa2562d6d22ba5a121"
+    }
+  ],
+  "file_hashes": {
+    "index.html": "8dfed3e1e93cb0ccca168484eed29dcaaa695a0f7ab9ece077795e509bb65af6",
+    "sitemap.xml": "091eb48afee2e7bcf280e38cc3476c6f1aeba398f124f3f56b1f38b7c166407b",
+    ".nojekyll": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+    "CNAME": "e6028d9291d9f875b57475b21a21843c969339a201bb92aa94c51e4d75c629f3",
+    "robots.txt": "030a3b215287d3055ce11277e4a9148050d6764a1c8334ffd1992bf1bb4d3d30",
+    "e0f86d7ef41b75936fc7da1554f015d6.txt": "8dc155e8a47f58da89c3799b7dc140d574567c52c444b96d7afc84606e11577e"
+  },
+  "revision": "d4fb736376208ec395658ba27a6879b442dd29cf9be6d0c4497d73ff38942747"
+}
